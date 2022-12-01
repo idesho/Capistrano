@@ -2,7 +2,7 @@
 lock "~> 3.17.1"
 
 set :application, "blog_app"
-set :repo_url, "https://github.com/kei-kamiguchi/blog_app.git"
+set :repo_url, "https://github.com/idesho/Capistrano.git"
 set :bundle_without, %w{test}.join(':')
 set :rbenv_version, "3.0.1"
 # Default branch is :master
